@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mystic Nails</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="accordion.css">
+</head>
+<body class="bg-green-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-green-100 shadow-lg">
+    <div class="container mx-auto p-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-green-700">Mystic Nails</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#designs" class="hover:text-green-500 transition">Diseños</a></li>
+          <li><a href="#techniques" class="hover:text-green-500 transition">Técnicas</a></li>
+          <li><a href="#contact" class="hover:text-green-500 transition">Turnos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-green-100 to-green-200 p-16 text-center">
+    <h2 class="text-4xl font-bold text-green-800">Diseños que Realzan tu Belleza</h2>
+    <p class="mt-4 text-lg text-green-600">Explora nuestra galería, aprende sobre técnicas únicas y reserva tu turno hoy.</p>
+    <button class="mt-6 px-6 py-2 rounded-lg bg-green-600 text-white hover:bg-green-700 transition">
+      Ver Diseños
+    </button>
+  </section>
+
+  <main>
+    <h3 class="text-2xl font-bold text-green-700 mb-6">Galería de Diseños</h3>
+    <div class="accordion-wrapper">
+      <details id="diseño1" open>
+        <summary>
+          <img draggable="false" src="images/Diseño1.jpg" alt="Diseño 1">
+        </summary>
+        <div class="details-content-wrapper">
+          <h3>Diseño 1</h3>
+          <p>Diseño brillante y moderno.</p>
+        </div>
+      </details>
+      <details id="diseño2">
+        <summary>
+          <img draggable="false" src="images/Diseño2.jpg" alt="Diseño 2">
+        </summary>
+        <div class="details-content-wrapper">
+          <h3>Diseño 2</h3>
+          <p>Inspirado en la elegancia y estilo.</p>
+        </div>
+      </details>
+      <details id="diseño3">
+        <summary>
+          <img draggable="false" src="images/Diseño3.jpg" alt="Diseño 3">
+        </summary>
+        <div class="details-content-wrapper">
+          <h3>Diseño 3</h3>
+          <p>Un toque artístico y único.</p>
+        </div>
+      </details>
+      <details id="diseño4">
+        <summary>
+          <img draggable="false" src="images/Diseño4.jpg" alt="Diseño 4">
+        </summary>
+        <div class="details-content-wrapper">
+          <h3>Diseño 4</h3>
+          <p>Detalles sofisticados para cualquier ocasión.</p>
+        </div>
+      </details>
+      <details id="diseño5">
+        <summary>
+          <img draggable="false" src="images/Diseño5.jpg" alt="Diseño 5">
+        </summary>
+        <div class="details-content-wrapper">
+          <h3>Diseño 5</h3>
+          <p>Combinación perfecta de colores y estilo.</p>
+        </div>
+      </details>
+      <details id="diseño6">
+        <summary>
+          <img draggable="false" src="images/Diseño6.jpg" alt="Diseño 6">
+        </summary>
+        <div class="details-content-wrapper">
+          <h3>Diseño 6</h3>
+          <p>Combinación perfecta de colores y estilo.</p>
+        </div>
+      </details>
+      <details id="diseño">
+        <summary>
+          <img draggable="false" src="images/Diseño7.jpg" alt="Diseño 7">
+        </summary>
+        <div class="details-content-wrapper">
+          <h3>Diseño 7</h3>
+          <p>Combinación perfecta de colores y estilo.</p>
+        </div>
+      </details>
+    </div>
+  </main> 
+
+  <!-- Técnicas -->
+  <section id="techniques" class="bg-green-50 py-12">
+    <div class="container mx-auto">
+      <h3 class="text-2xl font-bold text-green-700 mb-6">Técnicas y Procedimientos</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <!-- Técnica 1 -->
+    <div class="flex flex-col md:flex-row items-center mb-8 bg-white shadow-lg rounded-lg overflow-hidden">
+        <!-- Video -->
+        <div class="w-full md:w-1/2">
+          <video src="images/Diseño1video.mp4" controls class="w-full h-auto"></video>
+        </div>
+        <!-- Texto -->
+        <div class="w-full md:w-1/2 p-6">
+          <h4 class="text-green-700 font-semibold text-xl mb-2">Nail Art</h4>
+          <p class="text-gray-600">
+            El nail art es la técnica de decorar uñas con diseños creativos y únicos. Combina colores, texturas y detalles como piedras o dibujos para personalizar y realzar tu estilo en cualquier ocasión.
+          </p>
+        </div>
+      </div>
+    <!-- Técnica 2 -->
+    <div class="flex flex-col md:flex-row items-center mb-8 bg-white shadow-lg rounded-lg overflow-hidden">
+        <!-- Video -->
+        <div class="w-full md:w-1/2">
+          <video src="images/presson.mp4" controls class="w-full h-auto"></video>
+        </div>
+        <!-- Texto -->
+        <div class="w-full md:w-1/2 p-6">
+          <h4 class="text-green-700 font-semibold text-xl mb-2">Como aplicar las uñas PressOn</h4>
+          <p class="text-gray-600">
+            Las uñas press-on son uñas postizas fáciles de aplicar que ofrecen diseños variados y elegantes para cualquier ocasión. Son prácticas, seguras y permiten cambiar de estilo rápidamente sin dañar tus uñas naturales.
+          </p>
+        </div>
+      </div>
+    </div>
+        <!-- Botón para más información -->
+        <div class="text-center mt-6">
+            <a href="tecnicas.html" 
+               class="px-6 py-3 bg-green-600 text-white rounded-lg shadow-lg hover:bg-green-700 transition">
+              Más Información
+            </a>
+          </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contact" class="bg-green-100 py-12 text-center">
+    <h3 class="text-2xl font-bold text-green-700 mb-6">Reserva tu Turno</h3>
+    <p class="text-green-600 mb-4">Contáctanos para más información o para reservar un turno.</p>
+    <a href="https://wa.me/+5491126320824?text=Hola%21%20vengo%20de%20tu%20p%C3%A1gina%20web%20y%20estaba%20interesadx%20en%20solicitar%20un%20turno." 
+    class="px-6 py-2 rounded-lg bg-green-600 text-white hover:bg-green-700 transition">
+    Contactar por WhatsApp
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-200 py-4 text-center text-green-700">
+    <p>&copy; 2024 Mystic Nails. Todos los derechos reservados.</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>

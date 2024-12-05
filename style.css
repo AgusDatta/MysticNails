@@ -1,0 +1,28 @@
+/* Personalización de Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animaciones */
+button {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Estilo para videos */
+video {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  video:hover {
+    transform: scale(1.05);
+  }
+
